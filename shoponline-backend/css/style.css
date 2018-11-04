@@ -1,0 +1,66 @@
+.login{
+	margin:auto;
+	width:40%;
+	padding:10px;
+	background:#fff;
+	
+}
+h4.text_login{
+	margin:auto;
+	width:40%;
+	padding:10px;
+	text-align:center;
+	background:#91D28A;
+}
+.error{
+    color: red;
+    padding: 5px;
+    border: 1px red solid;
+}
+.infoinvoice{
+	border: 1px dashed #DEDDDD;
+	padding:10px;
+	float:left;
+	width:100%;
+	margin-bottom:20px;
+}
+.infoinvoice .infoinvoice_left,.infoinvoice .infoinvoice_right{
+	width:45%;
+	float:left;
+
+}
+.infoinvoice .infoinvoice_left .thongtinkhachhang,.infoinvoice .infoinvoice_right .thongtinhoadon{
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	border-bottom:1px solid #DEDDDD;
+	padding-bottom:10px;
+}
+.infoinvoice .infoinvoice_right{
+	border-left:2px solid #DEDDDD;
+	margin-left:20px;
+	padding-left:20px;	
+}
+.infoinvoice_detail .label_invoice_detail{
+	font-size:18px;
+	font-weight:bold;
+	border-bottom:1px solid #DEDDDD;
+	margin-bottom:10px;
+}
+.item_infoinvoice_detail{
+	border-left: 1px #DEDDDD solid;		
+	width:100%;
+}
+.item_infoinvoice_detail thead th{
+	border-top: 1px #DEDDDD solid;
+	border-bottom: 1px #DEDDDD solid;
+	border-right: 1px #DEDDDD solid;
+	padding:10px;
+	text-align:center
+}
+.item_infoinvoice_detail tbody tr td{
+	border-bottom: 1px #DEDDDD solid;
+	border-right: 1px #DEDDDD solid;
+	padding:10px;
+	text-align:center
+}
